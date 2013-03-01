@@ -1,0 +1,48 @@
+body{
+	background: #00ff00 url('../img/bg.jpg') no-repeat fixed center; 
+}
+
+.main{
+	background: #fbfbfb;
+	background: url('../img/png_fix.png'); 
+}
+.hellow-box{
+	background: #da8801; /* Old browsers */
+	background: -moz-linear-gradient(top, #da8801 0%, #cc6f02 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#da8801), color-stop(100%,#cc6f02)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #da8801 0%,#cc6f02 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #da8801 0%,#cc6f02 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #da8801 0%,#cc6f02 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #da8801 0%,#cc6f02 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da8801', endColorstr='#cc6f02',GradientType=0 ); /* IE6-9 */
+	text-transform: uppercase;
+	font-size:10px;
+	color:#ddc07e;
+	padding: 15px 25px;
+	font-family: 'Helvetica';
+}
+
+.hellow-box span{
+	color:#EEEEEE;
+	font-size:15px;
+}
+
+.hellow-box__solution{
+	background-color: #fcefd5;
+	font-size: 12px;
+}
+
+.hellow-box__caption{
+	padding: 10px 20px 5px 25px;
+	color: #d87a13;
+}
+
+.hellow-box__text{
+	font-size:12px;
+	padding: 10px 20px 5px 25px;
+	color: #8b7661;
+}
+
+.popular_direction{
+	padding-left: 15px;
+}
