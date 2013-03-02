@@ -1,13 +1,39 @@
 body{
-	background: #00ff00 url('../img/bg.jpg') no-repeat fixed center;
+	background: #00ff00 url('../img/bg_2.jpg') no-repeat fixed center;
 	font-family: 'Scada', sans-serif; 
+}
+
+.shadow-fix{
+	box-shadow: 0px 15px 20px 1px #000000;
+	padding-right: 40px;
 }
 
 .main{
 	background: #fbfbfb;
 	background: url('../img/png_fix.png');
-	padding: 0px 20px 30px 20px;
-	box-shadow: 0px 0px 20px 1px #000000;
+	padding: 20px 20px 30px 20px;
+}
+
+.header{
+	color:#F0F0F0;
+	text-shadow: 3px 3px 5px #000000;
+	padding: 10px;
+}
+
+.header__logo{
+	/*background: url('../img/png90_fix.png');*/
+	background-color: rgba(221, 135, 2, 0.25);
+	box-shadow: 0px 0px 20px #000000;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.header__contact{
+	background-color: rgba(221, 135, 2, 0.25);
+	box-shadow: 0px 0px 20px #000000;
+	padding-left: 10px;
+	height: 90px;
+	border-radius: 5px;
 }
 
 .slider{
@@ -23,11 +49,31 @@ body{
 	background: -ms-linear-gradient(top, #7f2d01 0%,#531c00 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #7f2d01 0%,#531c00 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f2d01', endColorstr='#531c00',GradientType=0 ); /* IE6-9 */
-	color: #FFFFFF !important;
+	padding: 0 20px;
+}
+
+.top-menu .navbar-inner{
+	background: transparent;
+	border:0;
+	box-shadow: none;
+}
+
+.top-menu .navbar{
+	margin: 10px 0px;
 }
 
 .top-menu .active a{
 	background-color:#d98501 !important;
+}
+
+.top-menu__item a{
+	color: #FFFFFF !important;
+	text-shadow: none !important;
+}
+
+.top-menu__item.open a{
+	background: transparent !important;
+	background-color: transparent !important;
 }
 
 .hellow-box{

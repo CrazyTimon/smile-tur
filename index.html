@@ -11,31 +11,31 @@
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
   </head>
 <body>
-    <div class="container main">
-    
+    <div class="container">
         <div class="row header">
             <div class="span12">
-                <div class="span8">
+                <div class="span3 header__logo">
                     <h1>SMILE TOUR</h1>
                     <h4>подпись или слогнан</h4>
                 </div>
-                <div class="span3">
+                <div class="span3 offset5 header__contact">
                     <h5>Контакты</h5>
                     <div><small>г. Тюмень ул. Пермякова 4 оф.208</small></div>
                     <div><small>Тел. +7 (912) 924 00 55, +7 (2345) 45 68 91</small></div>
                 </div>
             </div>
-        </div>  
-        
-        <div class="row menu">
-            <div class="span12">
+        </div>
+    </div>
+<div class="shadow-fix container">
+    <div class="container top-menu">
+        <div class="menu">
                 <div class="navbar">
-                  <div class="navbar-inner top-menu">
+                  <div class="navbar-inner">
                     <ul class="nav">
-                        <li class="active">
+                        <li class="active top-menu__item">
                             <a href="#">На главную</a>
                         </li>
-                        <li class="dropdown">
+                        <li class="dropdown top-menu__item">
                             <a href="#" class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">Страны
                                 <b class="caret"></b>
                             </a>
@@ -46,24 +46,25 @@
                                 <li class="span2">США</li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="top-menu__item">
                             <a href="#">Каталог отелей</a>
                         </li>
-                        <li>
+                        <li class="top-menu__item">
                             <a href="#">Заказ тура</a>
                         </li>
-                        <li>
+                        <li class="top-menu__item">
                             <a href="#">О компнаии</a>
                         </li>
-                        <li>
+                        <li class="top-menu__item">
                             <a href="#">Контакты</a>
                         </li>
                     </ul>
                     </div>
                 </div>
-            </div>
         </div>
-        
+    </div>
+
+    <div class="container main">
         <div class="row content">
             <div clss="span12">
                 <div class="span12 slider">
@@ -227,6 +228,7 @@
             <div><small>e-mail: crazytimon88@gmail.com</small></div>
         </div>
     </div>
+</div>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
