@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>SMAIL-TUR.RU</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/custom_style.css" rel="stylesheet" media="screen">
@@ -15,13 +16,19 @@
         <div class="row header">
             <div class="span12">
                 <div class="span3 header__logo">
-                    <h1>SMILE TOUR</h1>
-                    <h4>подпись или слогнан</h4>
+                    <img src="img/logo.png">
+                    <!--<h4>подпись или слогнан</h4>-->
                 </div>
-                <div class="span3 offset5 header__contact">
-                    <h5>Контакты</h5>
-                    <div><small>г. Тюмень ул. Пермякова 4 оф.208</small></div>
-                    <div><small>Тел. +7 (912) 924 00 55, +7 (2345) 45 68 91</small></div>
+                <div class="span5 header__slogan">
+                    <div class="header__label header__label_big">С улыбкой по свету!</div>
+                </div>
+                <div class="span3 header__contact">
+                    <div class="header__label">Контакты</div>
+                    <div class="header__phone">
+                        <div class="pull-left">Тел:</div>
+                        <div class="pull-right">+7 (912) 924 00 55</div>
+                        <div class="pull-right">+7 (2345) 45 68 91</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,7 +40,7 @@
                   <div class="navbar-inner">
                     <ul class="nav">
                         <li class="active top-menu__item">
-                            <a href="#">На главную</a>
+                            <a href="#">Поиск тура</a>
                         </li>
                         <li class="dropdown top-menu__item">
                             <a href="#" class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">Страны
@@ -47,13 +54,16 @@
                             </ul>
                         </li>
                         <li class="top-menu__item">
-                            <a href="#">Каталог отелей</a>
+                            <a href="#">Новости</a>
+                        </li>
+                        <li class="top-menu__item">
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li class="top-menu__item">
+                            <a href="#">Отзывы</a>
                         </li>
                         <li class="top-menu__item">
                             <a href="#">Заказ тура</a>
-                        </li>
-                        <li class="top-menu__item">
-                            <a href="#">О компнаии</a>
                         </li>
                         <li class="top-menu__item">
                             <a href="#">Контакты</a>
@@ -109,19 +119,39 @@
                         <div>на сайт нашего агенства</div>
                     </div>
                     <div class="hellow-box__solution">
-                        <div class="hellow-box__caption">
-                            <p>
-                                Новая компания осуществляет свою деятельность уже более 15 лет.
-                            </p>
+                        <div class="hellow-box__container">
+                            <div class="hellow-box__caption">
+                                    Заголовок новости
+                            </div>
+                            <div class="hellow-box__text">
+                                    Новая компания предлагает своим клиентам отдых более чем в 15 странах мира.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </div>
                         </div>
-                        <div class="hellow-box__text">
-                            <p>
-                                Новая компания предлагает своим клиентам отдых более чем в 15 странах мира.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            </p>
-                            <p>
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
+                        <div class="hellow-box__container">
+                            <div class="hellow-box__caption">
+                                    Заголовок новости
+                            </div>
+                            <div class="hellow-box__text">
+                                    Новая компания предлагает своим клиентам отдых более чем в 15 странах мира.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </div>
                         </div>
+                        <div class="hellow-box__container hellow-box__container_last">
+                            <div class="hellow-box__caption">
+                                    Заголовок новости
+                            </div>
+                            <div class="hellow-box__text">
+                                    Новая компания предлагает своим клиентам отдых более чем в 15 странах мира.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hellow-box__caption font_scada text_up hellow-box_marginfix">
+                        <h4>Оставить заявку</h4>
+                    </div>
+                    <div class="hellow-box__solution">
+                        <input type="text" placeholder="поля для заполнения">
+                        <input type="text" placeholder="поля для заполнения">
+                        <input type="text" placeholder="поля для заполнения">
+                        <button class="btn btn-success" type="button">Оставить заявку</button>
                     </div>
                 </div>
                     <div class="span8 popular_direction font_scada text_up">
@@ -145,7 +175,7 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Подробнее</button>
+                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
                         </div>
                     </div>
 
@@ -167,7 +197,7 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Подробнее</button>
+                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
                         </div>
                     </div>
 
@@ -189,7 +219,7 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Подробнее</button>
+                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
                         </div>
                     </div>
 
@@ -211,7 +241,7 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Подробнее</button>
+                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
                         </div>
                     </div>
             </div>
