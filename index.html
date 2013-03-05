@@ -17,7 +17,6 @@
             <div class="span12">
                 <div class="span3 header__logo">
                     <img src="img/logo.png">
-                    <!--<h4>подпись или слогнан</h4>-->
                 </div>
                 <div class="span5 header__slogan">
                     <div class="header__label header__label_big">С улыбкой по свету!</div>
@@ -159,6 +158,7 @@
                     </div>
                     <div class="span4">
                         <div class="tour">
+                            <span class="label label-important label-plug_hot">ГОРЯЧЕЕ ПРЕДЛОЖЕНИЕ</span>
                             <img src="img/tours/1.jpg">
                             <div class="tour__name">
                                 <b>Марокко</b>
@@ -175,12 +175,13 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
+                            <button href="#myModal" data-toggle="modal" class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
                         </div>
                     </div>
 
                     <div class="span4">
                         <div class="tour">
+                            <span class="label label-warning label-plug_hit">ХИТ СЕЗОНА</span>
                             <img src="img/tours/2.jpg">
                             <div class="tour__name">
                                 <b>Марокко</b>
@@ -197,7 +198,7 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
+                            <button href="#myModal" data-toggle="modal" class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
                         </div>
                     </div>
 
@@ -219,7 +220,7 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
+                            <button href="#myModal" data-toggle="modal" class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
                         </div>
                     </div>
 
@@ -241,7 +242,7 @@
                                 <b>Стоимость тура:</b>
                                 <small>1250 $</small>
                             </div>
-                            <button class="btn btn-warning tour__btn" type="button">Я хочу туда!</button>
+                            <button href="#myModal" class="btn btn-warning tour__btn" type="button" data-toggle="modal">Я хочу туда!</button>
                         </div>
                     </div>
             </div>
@@ -259,7 +260,36 @@
         </div>
     </div>
 </div>
+<div class="modal_windows">
+<!-- Button to trigger modal -->
+ 
+    <!-- Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Марокко</h3>
+      </div>
+      <div class="modal-body">
+        <img src="http://online-traveler.ru/wp-content/uploads/2011/12/510-150x150.jpg">
+        <img src="http://stranic.ru/wp-content/uploads/2013/01/004.jpg">
+        <img src="http://geoday.ru/wp-content/uploads/2009/06/50469_tb1.jpg">
+        <p>Откроем-ка мы материал по Марокко рецептом аутентичного марокканского чая. Каждый уважающий себя магрибец за свою жизнь выпивает его вагон и маленькую цистерну. Думаем, что и российским туристам, спасающимся от летней жары, он окажется по нраву.</p><b>Итак, на литр воды берется пол столовой ложки зеленого чая (лучше всего использовать сорт «зеленый порох»), 5 столовых ложек сахара и небольшой пучок свежей мяты. Как только вода закипит, ее нужно перелить в металлический чайник, добавить чай, сахар и мяту. Как следует перемешать и подержать на медленном огне еще пять минут. Готово! Разливать чай необходимо с особым магрибским шиком: высоко держа чайник над стаканом, чтобы напиток немного пенился.</p><b>И все же Марокко, пожалуй, одна из немногих стран, где все еще можно вкусить традиционной арабской экзотики, не жертвуя для этого комфортом и не рискуя самочувствием. Кроме того, предприимчивые местные жители давно изучили все тонкости талассо, силу волн и розу ветров на побережье, а также приметили любовь туристов к марокканским коврам и шелкам — так что заняться серфингом, поторговаться или просто покайфовать в спа-центре при отеле здесь тоже можно</p>
+                    <div class="hellow-box__solution">
+                    <center>
+                        <input type="text" placeholder="поля для заполнения">
+                        <input type="text" placeholder="поля для заполнения">
+                        <button class="btn btn-success" type="button">Оставить заявку</button>
+                    </center>
+                    </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Отмена</button>
+        <button class="btn btn-warning">Оставить заявку</button>
+      </div>
+    </div>
+</div>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/custom_script.js"></script>
 </body>
 </html>
