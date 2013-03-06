@@ -1,6 +1,7 @@
 body{
-	background: #000000 url('../img/bg.jpg') no-repeat fixed center;
+	background: #000000 url('../img/bg_1.jpg') no-repeat fixed center;
 	font-family: 'Scada', sans-serif; 
+	background-size: cover;
 }
 
 .shadow-fix{
@@ -146,6 +147,9 @@ body{
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	border: 1px solid #cc6e00;
+}
+.hellow-box_padding_35px{
+	padding-left: 35px;
 }
 
 .hellow-box__send-request{
@@ -294,4 +298,26 @@ body{
 	position: absolute;
 	margin-left: 210px;
 	margin-top: -15px;
+}
+
+.button_width_220{
+	width:220px;
+}
+
+.chzn-choices{
+	border-radius:3px;
+	border: 1px solid #ccc !important;
+}
+
+.popover-title{
+	background-color: #fFc015;
+	/*color:#8e4f2e;
+	background: #7f2d01; 
+	background: -moz-linear-gradient(top, #7f2d01 0%, #451500 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7f2d01), color-stop(100%,#451500)); 
+	background: -webkit-linear-gradient(top, #7f2d01 0%,#451500 100%); 
+	background: -o-linear-gradient(top, #7f2d01 0%,#451500 100%); 
+	background: -ms-linear-gradient(top, #7f2d01 0%,#451500 100%); 
+	background: linear-gradient(to bottom, #7f2d01 0%,#451500 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f2d01', endColorstr='#451500',GradientType=0 ); */
 }
